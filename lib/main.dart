@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:note_pad/database/ntdatabase.dart';
 import 'note_pad_screen.dart';
 
 void main() {
+  //async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await NoteDatabase.instance.db;
   runApp(const NoteApp());
 }
 
